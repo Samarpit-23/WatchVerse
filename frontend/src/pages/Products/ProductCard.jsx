@@ -37,9 +37,10 @@ const ProductCard = ({ p }) => {
           />
            <span className=" bottom-3 right-3 bg-green-100 text-green-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">
             {p?.brand}
+           
           </span>
         </Link>
-        <HeartIcon product={p} />
+        
       </section>
 
       <div className="p-5">
@@ -87,6 +88,8 @@ const ProductCard = ({ p }) => {
           >
             <AiOutlineShoppingCart size={25} />
           </button>
+           
+        <HeartIcon product={p} />
         </section>
       </div>
     </div>

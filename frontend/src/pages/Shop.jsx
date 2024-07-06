@@ -85,9 +85,9 @@ const Shop = () => {
       <div className="container  ml-10 ">
         <div className="flex md:flex-row ">
           <div className="bg-[#151515] p-3 ml-5 h-[100vh]">
-            <h2 className="h4 text-center py-2 bg-black rounded-full mb-2">
+            {/* <h2 className="h4 text-center py-2 bg-black rounded-full mb-2">
               Filter by Categories
-            </h2>
+            </h2> */}
 
             <div className="p-5 w-[15rem]">
               {categories?.map((c) => (
