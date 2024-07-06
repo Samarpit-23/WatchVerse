@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #0e141d;
+  color:#e7f4ed
+  /* color: rgb(4, 164, 81); */
+}
+
+input,
+textarea {
+  color:#13683a;
+}
+
+.py-3{
+  padding-top:0 ;
+}
